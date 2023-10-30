@@ -6,11 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "build": "npm i && (cd client && npm run build)",
+    "build": "npm i && (cd client && npm install && npm run build)",
     "dev": "concurrently \"npm --prefix client start\" \"npm start\""
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
   "dependencies": {
     "concurrently": "^8.2.2",
     "nodemon": "^3.0.1",
