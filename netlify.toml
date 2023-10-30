@@ -1,0 +1,4 @@
+[build]
+functions = "functions/"
+command = "npm start"
+publish = "client/build/"
