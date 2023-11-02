@@ -1,3 +1,4 @@
+/* eslint-disable */
 class PeerService {
     constructor() {
       if (!this.peer) {

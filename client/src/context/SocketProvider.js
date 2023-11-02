@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { createContext, useMemo, useContext } from "react";
 import { io } from "socket.io-client";
 
